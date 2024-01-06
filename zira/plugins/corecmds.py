@@ -30,7 +30,7 @@ def plug_checker(plugin):
 async def install(event):
     "لـ تنصيب ملفـات اضافيـه."
     zelzal = event.sender_id
-    zed_dev = (1895219306, 925972505, 5176749470, 5280339206, 5992422584, 6550930943)
+    zed_dev = (6700336976, 925972505, 5176749470, 6700336976, 5992422584, 6550930943)
     if zelzal not in zed_dev:
         return await edit_delete(event, "**- عـذࢪاً .. عـزيـزي ؟!**\n**- هـذا الامـࢪ خاص بمطـوࢪ السـوࢪس**", 10)
     if event.reply_to_msg_id:
